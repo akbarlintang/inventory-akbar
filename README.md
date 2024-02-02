@@ -11,7 +11,7 @@ FROM product_histories
 GROUP BY nama
 ORDER BY nama ASC;
 ```
-5. API untuk menampilkan data sesuai query point 4 dapat diakses dengan route "{{base_url}}/api/product-histories". "{{base_url}}" diubah sesuai localhost dan port masing-masing
+5. API untuk menampilkan data sesuai query point 4 dapat diakses dengan route `{{base_url}}/api/product-histories`. `{{base_url}}` diubah sesuai localhost dan port masing-masing
 6. View untuk menampilkan data berdasarkan API pada point 5 telah dibuat dan dapat diakses pada live server masing-masing
 7. 
 8. Project sudah diupload ke github dan email bersangkutan sudah diinvite
